@@ -1,0 +1,42 @@
+
+
+#!/usr/bin/env python...
+{'ok': True, 'result': [
+        {'update_id': 560382855, 'message': {'message_id': 1, 'from': {'id': 763158163, 'is_bot': False, 'first_name': 'Haji', 'username': 'nullzeronull', 'language_code': 'tr'
+                }, 'chat': {'id': 763158163, 'first_name': 'Haji', 'username': 'nullzeronull', 'type': 'private'
+                }, 'date': 1563531667, 'text': '/start', 'entities': [
+                    {'offset': 0, 'length': 6, 'type': 'bot_command'
+                    }
+                ]
+            }
+        },
+        {'update_id': 560382856, 'message': {'message_id': 2, 'from': {'id': 763158163, 'is_bot': False, 'first_name': 'Haji', 'username': 'nullzeronull', 'language_code': 'tr'
+                }, 'chat': {'id': 763158163, 'first_name': 'Haji', 'username': 'nullzeronull', 'type': 'private'
+                }, 'date': 1563544039, 'text': 'asdsa'
+            }
+        }
+    ]
+}
+
+{'update_id': 560382856, 'message': {'message_id': 2, 'from': {'id': 763158163, 'is_bot': False, 'first_name': 'Haji', 'username': 'nullzeronull', 'language_code': 'tr'
+        }, 'chat': {'id': 763158163, 'first_name': 'Haji', 'username': 'nullzeronull', 'type': 'private'
+        }, 'date': 1563544039, 'text': 'asdsa'
+    }
+}
+
+MAIN_URL = f'https://api.telegram.org/bot{TOKEN}'
+
+m = requests.get(f'{MAIN_URL}/getUpdates')
+name = m.json()['result'][1]['message']['from']['first_name']
+
+mesaj  = {
+    'chat_id': 763158163,
+    'text': f'salam {name}'
+}
+
+
+
+
+r = requests.post(f'{MAIN_URL}/sendMessage', data = mesaj)
+
+print(m.json()['result'][1]['message']['from']['first_name'])
