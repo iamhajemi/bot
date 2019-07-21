@@ -28,15 +28,18 @@ def hava_durumu(message):
     url = f'http://api.openweathermap.org/data/2.5/weather?q={message.text}&units=metric&APPID=3c8fb4cea87c794c8826e40711728821'
 
     json_data = requests.get(url).json()
+    print(json_data)
+    if '404' not in json_data:
 
-    bot.reply_to(message, json_data['main']['temp'])
-
+        bot.reply_to(message, json_data['main'])
+    print(json_data.values())
     return
 
 
 @bot.message_handler(content_types=['sticker'])
 def send_sticker(message: Message):
     bot.send_sticker(message.chat.id, STICKER_ID)
+    bot.send_message(message.chat.id, 'gele blet')
 
 @bot.inline_handler(lambda query: query.query == 'text')
 def query_text(inline_query):

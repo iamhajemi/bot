@@ -1,42 +1,43 @@
-
-
-#!/usr/bin/env python...
-{'ok': True, 'result': [
-        {'update_id': 560382855, 'message': {'message_id': 1, 'from': {'id': 763158163, 'is_bot': False, 'first_name': 'Haji', 'username': 'nullzeronull', 'language_code': 'tr'
-                }, 'chat': {'id': 763158163, 'first_name': 'Haji', 'username': 'nullzeronull', 'type': 'private'
-                }, 'date': 1563531667, 'text': '/start', 'entities': [
-                    {'offset': 0, 'length': 6, 'type': 'bot_command'
-                    }
-                ]
-            }
-        },
-        {'update_id': 560382856, 'message': {'message_id': 2, 'from': {'id': 763158163, 'is_bot': False, 'first_name': 'Haji', 'username': 'nullzeronull', 'language_code': 'tr'
-                }, 'chat': {'id': 763158163, 'first_name': 'Haji', 'username': 'nullzeronull', 'type': 'private'
-                }, 'date': 1563544039, 'text': 'asdsa'
-            }
-        }
-    ]
-}
-
-{'update_id': 560382856, 'message': {'message_id': 2, 'from': {'id': 763158163, 'is_bot': False, 'first_name': 'Haji', 'username': 'nullzeronull', 'language_code': 'tr'
-        }, 'chat': {'id': 763158163, 'first_name': 'Haji', 'username': 'nullzeronull', 'type': 'private'
-        }, 'date': 1563544039, 'text': 'asdsa'
+{
+  'coord': {
+    'lon': -0.13,
+    'lat': 51.51
+  },
+  'weather': [
+    {
+      'id': 801,
+      'main': 'Clouds',
+      'description': 'few clouds',
+      'icon': '02n'
     }
+  ],
+  'base': 'stations',
+  'main': {
+    'temp': 18.33,
+    'pressure': 1013,
+    'humidity': 63,
+    'temp_min': 16.11,
+    'temp_max': 20
+  },
+  'visibility': 10000,
+  'wind': {
+    'speed': 3.1,
+    'deg': 270
+  },
+  'clouds': {
+    'all': 20
+  },
+  'dt': 1563653835,
+  'sys': {
+    'type': 1,
+    'id': 1502,
+    'message': 0.0084,
+    'country': 'GB',
+    'sunrise': 1563595592,
+    'sunset': 1563653207
+  },
+  'timezone': 3600,
+  'id': 2643743,
+  'name': 'London',
+  'cod': 200
 }
-
-MAIN_URL = f'https://api.telegram.org/bot{TOKEN}'
-
-m = requests.get(f'{MAIN_URL}/getUpdates')
-name = m.json()['result'][1]['message']['from']['first_name']
-
-mesaj  = {
-    'chat_id': 763158163,
-    'text': f'salam {name}'
-}
-
-
-
-
-r = requests.post(f'{MAIN_URL}/sendMessage', data = mesaj)
-
-print(m.json()['result'][1]['message']['from']['first_name'])
