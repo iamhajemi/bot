@@ -1,43 +1,266 @@
 {
-  'coord': {
-    'lon': -0.13,
-    'lat': 51.51
-  },
-  'weather': [
+  'status': 'ok',
+  'totalResults': 38,
+  'articles': [
     {
-      'id': 801,
-      'main': 'Clouds',
-      'description': 'few clouds',
-      'icon': '02n'
+      'source': {
+        'id': None,
+        'name': 'Erienewsnow.com'
+      },
+      'author': None,
+      'title': 'Five Children Dead Following Fire at Erie Home that Operated as a Daycare - erienewsnow.com',
+      'description': 'Erie Fire Chief Guy Santone said seven people were inside the home.',
+      'url': 'https://www.erienewsnow.com/story/40902769/five-children-dead-following-fire-at-erie-home-that-operated-as-a-daycare',
+      'urlToImage': 'https://WICU.images.worldnow.com/images/18667452_G.png?lastEditedDate=1565533003000',
+      'publishedAt': '2019-08-11T21:54:00Z',
+      'content': 'Five children have died,\xa0and a mother was flown to a Pittsburgh hospital after an early morning fire in West Erie.\r\nThe\xa0house fire at 1248 W.\xa011th St. was reported around 1:15 a.m. Sunday with reports of multiple people trapped inside.\xa0\r\nSeven people had to b… [+924 chars]'
+    },
+    {
+      'source': {
+        'id': 'cnn',
+        'name': 'CNN'
+      },
+      'author': 'Mark Morales, CNN',
+      'title': "Source: Jeffrey Epstein's cell was not monitored the night of his apparent suicide - CNN",
+      'description': "Jeffrey Epstein's cell was not regularly monitored the night he is believed to have killed himself, a source with knowledge of the accused sex trafficker's time at the Metropolitan Correctional Center in New York said Sunday.",
+      'url': 'https://www.cnn.com/2019/08/11/us/jeffrey-epstein-sunday/index.html',
+      'urlToImage': 'https://cdn.cnn.com/cnnnext/dam/assets/190810092923-jeffrey-epstein-handout-170328-super-tease.jpg',
+      'publishedAt': '2019-08-11T21:10:00Z',
+      'content': "New York (CNN)Jeffrey Epstein's cell was not regularly monitored the night he is believed to have killed himself, a source with knowledge of the accused sex trafficker's time at the Metropolitan Correctional Center in New York said Sunday.\r\nEpstein, 66, was i… [+3509 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Newschannel5.com'
+      },
+      'author': 'https://www.newschannel5.com/about-us/catlin-bogard',
+      'title': "The Taylor's Ring outdoor camera alerted police to Watson's location early Sunday morning - NewsChannel5.com",
+      'description': 'A Ring doorbell camera provided a credible sighting of escaped inmate Curtis Watson early Sunday morning, just hours before his capture.',
+      'url': 'https://www.newschannel5.com/news/the-taylors-ring-outdoor-camera-alerted-police-to-watsons-location-early-sunday-morning',
+      'urlToImage': 'https://ewscripps.brightspotcdn.com/dims4/default/83ac58f/2147483647/strip/true/crop/1334x700+0+50/resize/1200x630!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F9f%2F25%2F0e4552724718bcf7782a91d90116%2F67870910-10156523644017548-3623276269656866816-o.jpg',
+      'publishedAt': '2019-08-11T20:51:00Z',
+      'content': 'HENNING, Tenn. (WTVF) A Ring outdoor camera provided a credible sighting of escaped inmate Curtis Watson early Sunday morning, just hours before his capture.\r\n"We were awakened about 3:30 this morning by the alarm on our Ring doorbell, saying that someone was… [+1070 chars]'
+    },
+    {
+      'source': {
+        'id': 'engadget',
+        'name': 'Engadget'
+      },
+      'author': 'Jon Fingas',
+      'title': 'Ninja calls out Twitch after his dormant channel highlights porn - Engadget',
+      'description': 'He said it damages his brand.',
+      'url': 'https://www.engadget.com/2019/08/11/ninja-balks-at-twitch-using-channel-to-promote-streams/',
+      'urlToImage': 'https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D3358%252C2240%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-08%252F3149d780-bc71-11e9-b7d7-a0421d7ac8e5%26client%3Da1acac3e1b3290917d92%26signature%3D0464f9f93bab47430f6c6561fb84b218427deef0&client=amp-blogside-v2&signature=ca45617c81e36001e91d52d10520453d0ec6f6c1',
+      'publishedAt': '2019-08-11T20:16:52Z',
+      'content': 'Needless to say, Ninja saw a number of problems with the move. It\'s not just that Twitch effectively replaced his presence with recommendations, something he said wasn\'t true of "any other" channel, it\'s that it was tarnishing his brand. Kids could have seen … [+642 chars]'
+    },
+    {
+      'source': {
+        'id': 'al-jazeera-english',
+        'name': 'Al Jazeera English'
+      },
+      'author': 'Daanish Nabi',
+      'title': "Amid 'disheartening Eid siege', Kashmiris try to reach loved ones - Aljazeera.com",
+      'description': 'Kashmiris queue at government office to use phone amid a week-long clampdown that has seen communication lines cut off.',
+      'url': 'https://www.aljazeera.com/news/southasia/2019/08/disheartening-eid-siege-kashmirs-reach-loved-190811141928252.html',
+      'urlToImage': 'https://www.aljazeera.com/mritems/Images/2019/8/11/b1d914c6eeff45d880f612f63fce49b4_18.jpg',
+      'publishedAt': '2019-08-11T20:15:00Z',
+      'content': "Srinagar and New Delhi - On the lawn of the district commissioner's office in Srinagar, the main city of Indian-administered Kashmir,\xa0residents circle around a table, hoping their turn will come soon.\r\nWith phone and internet usage cut off during a week-long … [+7417 chars]"
+    },
+    {
+      'source': {
+        'id': 'reuters',
+        'name': 'Reuters'
+      },
+      'author': 'Reuters Editorial',
+      'title': 'Goldman Sachs economists say fears rise that U.S.-China trade war leading to recession - Reuters',
+      'description': "Goldman Sachs Group Inc said on Sunday that fears of the U.S.-China trade war leading to a recession are increasing and that Goldman no longer expects a trade deal between the world's two largest economies before the 2020 U.S. presidential election.",
+      'url': 'https://www.reuters.com/article/us-usa-trade-china-goldman-sachs/goldman-sachs-economists-say-fears-rise-that-u-s-china-trade-war-leading-to-recession-idUSKCN1V10K5',
+      'urlToImage': 'https://s2.reutersmedia.net/resources/r/?m=02&d=20190811&t=2&i=1417906819&w=1200&r=LYNXNPEF7A0PI',
+      'publishedAt': '2019-08-11T19:54:00Z',
+      'content': '(Reuters) - Goldman Sachs Group Inc said on Sunday that fears of the U.S.-China trade war leading to a recession are increasing and that Goldman no longer expects a trade deal between the world’s two largest economies before the 2020 U.S. presidential electio… [+1301 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Youtube.com'
+      },
+      'author': None,
+      'title': 'Hong Kong police fire tear gas as demonstrations continue - CBS News',
+      'description': 'Hong Kong police fired multiple rounds of tear gas at anti-government protesters who defied warnings to cancel a rally and blocked traffic. This is the tenth...',
+      'url': 'https://www.youtube.com/watch?v=l8WccjjPmwQ',
+      'urlToImage': 'https://i.ytimg.com/vi/l8WccjjPmwQ/maxresdefault.jpg',
+      'publishedAt': '2019-08-11T19:21:54Z',
+      'content': 'Hong Kong police fired multiple rounds of tear gas at anti-government protesters who defied warnings to cancel a rally and blocked traffic. This is the tenth consecutive weekend of pro-democracy demonstrations in Hong Kong. They started as a result of an extr… [+1235 chars]'
+    },
+    {
+      'source': {
+        'id': 'the-verge',
+        'name': 'The Verge'
+      },
+      'author': 'Andrew Liptak',
+      'title': 'J.D. Salinger’s Catcher in the Rye will be published as an ebook for the first time - The Verge',
+      'description': 'J.D. Salinger’s classic novel Catcher in the Rye will be published as an ebook for the first time next week, along with three other novels by the late author.',
+      'url': 'https://www.theverge.com/2019/8/11/20801082/catcher-and-the-rye-j-d-salinger-ebook-first-time',
+      'urlToImage': 'https://cdn.vox-cdn.com/thumbor/5Acy8ahjt4MLuojq9mL-sFM-cw8=/0x3:946x498/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/18960933/81OthjkJBuL.jpg',
+      'publishedAt': '2019-08-11T18:55:12Z',
+      'content': 'Along with three other novels\r\nImage: Little, Brown &amp; Company\r\nJ.D. Salingers classic novel Catcher in the Rye will be published as an ebook for the first time this week, according to The New York Times. The profile details the late author and his estates… [+2077 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Pagesix.com'
+      },
+      'author': 'Jaclyn Hendricks',
+      'title': "Miley Cyrus posts about 'change' following Liam Hemsworth split - Page Six",
+      'description': 'Cyrus took to social media on Sunday.',
+      'url': 'https://pagesix.com/2019/08/11/miley-cyrus-posts-about-change-following-liam-hemsworth-split/',
+      'urlToImage': 'https://nyppagesix.files.wordpress.com/2019/08/81119-miley-cyrus-index.jpg?quality=90&strip=all&w=1200',
+      'publishedAt': '2019-08-11T18:28:00Z',
+      'content': 'Miley Cyrus spoke about change and nature on Sunday in a new Instagram message, posted hours after the singer’s rep confirmed she and Liam Hemsworth had split after less than a year of marriage.\r\n“Dont fight evolution, because you will never win,” the 26-year… [+1062 chars]'
+    },
+    {
+      'source': {
+        'id': 'cnn',
+        'name': 'CNN'
+      },
+      'author': 'Harmeet Kaur, CNN',
+      'title': 'UFC fighter Mike Perry got his nose shattered - CNN',
+      'description': "You really don't want to see this. Mike Perry's nose might never look the same again.",
+      'url': 'https://www.cnn.com/2019/08/11/world/mike-perry-nose-ufc-trnd/index.html',
+      'urlToImage': 'https://cdn.cnn.com/cnnnext/dam/assets/190811112757-03-mike-perry-nose-trnd-0811-restricted-super-tease.jpg',
+      'publishedAt': '2019-08-11T18:22:00Z',
+      'content': None
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Lifehacker.com'
+      },
+      'author': 'Emily Price',
+      'title': 'How to Livestream the Perseid Meteor Shower on Monday - Lifehacker',
+      'description': 'The Perseid meteor shower peaks Monday and Tuesday evening. Regarded as one of the best meteor showers of the year, its something space buffs won’t want to miss.',
+      'url': 'https://lifehacker.com/how-to-livestream-the-perseid-meteor-shower-on-monday-1837149834',
+      'urlToImage': 'https://i.kinja-img.com/gawker-media/image/upload/s--ant05v1H--/c_fill,fl_progressive,g_center,h_900,q_80,w_1600/c6fo6hvcdx5luxz8m5mx.jpg',
+      'publishedAt': '2019-08-11T18:22:00Z',
+      'content': 'The Perseid meteor shower peaks Monday and Tuesday evening. Regarded as one of the best meteor showers of the year, its something space buffs wont want to miss.\r\nDepending on where you live; however, catching the action live might be a bit difficult. Clouds a… [+826 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Phonearena.com'
+      },
+      'author': 'Alan Friedman',
+      'title': "Telegram's new update includes a powerful new feature for group owners - PhoneArena",
+      'description': 'Messaging app Telegram has pushed out a new update that includes a feature called Slow Mode. This setting allows Admins to control how long each member of a group must wait between sending new ...',
+      'url': 'https://www.phonearena.com/news/Telegram-sends-out-new-update-for-iOS-and-Android_id118128',
+      'urlToImage': 'https://i-cdn.phonearena.com/images/article/118128-two_lead/Telegrams-new-update-includes-a-powerful-new-feature-for-group-owners.jpg',
+      'publishedAt': '2019-08-11T18:10:16Z',
+      'content': 'All content, features, and design are Copyright 2001-2019 PhoneArena.com. All rights reserved. Reproduction in whole or in part or in any form or medium without written permission is prohibited!'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Mmafighting.com'
+      },
+      'author': 'Alexander K. Lee',
+      'title': 'Liz Carmouche expected Valentina Shevchenko to be ‘more aggressive,’ wants trilogy bout - MMA Fighting',
+      'description': 'Liz Carmouche was unsuccessful in her attempt to pick up a second win over Valentina Shevchenko in the UFC Uruguay main event.',
+      'url': 'https://www.mmafighting.com/2019/8/11/20800606/liz-carmouche-expected-valentina-shevchenko-to-be-more-aggressive-wants-trilogy-bout',
+      'urlToImage': 'https://cdn.vox-cdn.com/thumbor/UNHIuICPNjvzc-vwn5SG03owYiU=/0x0:2400x1257/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/18960344/usa_today_13190455.jpg',
+      'publishedAt': '2019-08-11T18:00:00Z',
+      'content': 'For those keeping score at home, Valentina Shevchenko and Liz Carmouche are tied at one win apiece after their main event encounter at UFC Uruguay.\r\nHowever, its hard to imagine fans clamoring for a third meeting between the two flyweights after Saturdays rem… [+3712 chars]'
+    },
+    {
+      'source': {
+        'id': 'usa-today',
+        'name': 'USA Today'
+      },
+      'author': 'Jennifer Geiger',
+      'title': 'MyFord Touch users could receive up to a $400 payout after class-action lawsuit - USA TODAY',
+      'description': 'Owners of roughly 360,000 Ford and Lincoln vehicles equipped with a MyFord Touch or MyLincoln Touch system could be in for a nice payout.',
+      'url': 'https://www.usatoday.com/story/money/cars/2019/08/11/myford-touch-mylincoln-touch-lawsuit-400-some-ford-lincoln-owners/1981659001/',
+      'urlToImage': 'https://www.gannett-cdn.com/presto/2019/08/11/USAT/29e5104b-4b41-470a-a282-c95f472442df-13-ford-c-max-hybrid-myford-touch-es.jpg?crop=1999,1124,x0,y117&width=3200&height=1680&fit=bounds',
+      'publishedAt': '2019-08-11T17:33:00Z',
+      'content': '2013 Ford C-Max Hybrid\r\n\xa0(Photo: Evan Sears, Cars.com)\r\nOwners of Ford and Lincoln vehicles \xa0including us\xa0 have been complaining about defective MyFord Touch and MyLincoln Touch multimedia systems for years, and it appears that the squeaky wheels have won.\r\nA… [+2912 chars]'
+    },
+    {
+      'source': {
+        'id': 'fox-news',
+        'name': 'Fox News'
+      },
+      'author': 'Robert Gearty',
+      'title': 'US fencer takes knee at Pan Am Games in protest - Fox News',
+      'description': 'A member of the U.S. men’s fencing team staged a national anthem protest at the Pan American Games, saying, “We must call for change.”',
+      'url': 'https://www.foxnews.com/sports/us-fencer-takes-knee-in-protest-at-pan-am-games',
+      'urlToImage': 'https://static.foxnews.com/foxnews.com/content/uploads/2019/08/Race-Imboden-GettyImages-1167100212.jpg',
+      'publishedAt': '2019-08-11T17:24:29Z',
+      'content': 'A member of the U.S. men’s fencing team staged a national anthem protest at the Pan American Games, saying, “We must call for change.”\r\nRace Imboden and two teammates were winners of gold in a team foil competition at the games in Lima, Peru, Friday and\xa0he to… [+1953 chars]'
+    },
+    {
+      'source': {
+        'id': 'politico',
+        'name': 'Politico'
+      },
+      'author': 'KELSEY TAMBORRINO',
+      'title': 'Steve Scalise: Don’t blame Trump for mass shootings - POLITICO',
+      'description': "“The president's no more responsible for that shooting as your next guest, Bernie Sanders, is for my shooting,” the Louisiana congressman said.",
+      'url': 'https://www.politico.com/story/2019/08/11/steve-scalise-trump-mass-shootings-1458132',
+      'urlToImage': 'https://static.politico.com/56/7c/01e2937e42f6bab97d99a22dc8a5/190811-steve-scalise-ap-773.jpg',
+      'publishedAt': '2019-08-11T17:14:00Z',
+      'content': "President Donald Trump was very clear just the other day that there's no place for this, Steve Scalise said. | Rogelio V. Solis/AP Photo\r\nHouse Minority Whip Steve Scalise on Sunday called it a very slippery slope to blame President Donald Trumps rhetoric for… [+2900 chars]"
+    },
+    {
+      'source': {
+        'id': 'cnn',
+        'name': 'CNN'
+      },
+      'author': 'Ivana Kottasová and Sarah El Sirgany, CNN',
+      'title': "Yemen separatists say they've seized the key port of Aden - CNN",
+      'description': 'Yemeni separatists have taken control of the strategic city of Aden after days of fighting with forces backing the internationally recognized government.',
+      'url': 'https://www.cnn.com/2019/08/11/middleeast/yemen-aden-southern-separatists-intl/index.html',
+      'urlToImage': 'https://cdn.cnn.com/cnnnext/dam/assets/190811083632-02-aden-yemen-190801-super-tease.jpg',
+      'publishedAt': '2019-08-11T16:32:00Z',
+      'content': None
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Boxofficemojo.com'
+      },
+      'author': None,
+      'title': "'Scary Stories' Leads Newcomers with $20.8M Debut as 'Hobbs & Shaw' Repeats at #1 - Box Office Mojo",
+      'description': "'Scary Stories' Leads Newcomers with $20.8M Debut as 'Hobbs & Shaw' Repeats at #1",
+      'url': 'https://www.boxofficemojo.com/news/?id=4536',
+      'urlToImage': None,
+      'publishedAt': '2019-08-11T16:02:04Z',
+      'content': "by Brad BrevetAugust 11, 2019\r\nIt wasn't as close a race at the top of the weekend box office as we thought it might be heading into the weekend as Universal's Hobbs &amp; Shaw held on much better than expected and easily retained the #1 spot for a second wee… [+6313 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Aol.com'
+      },
+      'author': 'Rachel Kleinman',
+      'title': 'Anthony Scaramucci warns that Trump will turn on nation - AOL',
+      'description': 'President Trump’s short-time communications director and one-time pal Anthony Scaramucci attacked him on Twitter Saturday.',
+      'url': 'https://www.aol.com/article/news/2019/08/11/anthony-scaramucci-warns-that-trump-will-turn-on-nation/23791355/',
+      'urlToImage': 'https://o.aolcdn.com/images/dims3/GLOB/crop/1010x662+411+228/resize/1028x675!/format/jpg/quality/85/https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-images%2F2019-08%2Fd918e970-bc43-11e9-aee3-c94bf74b8292',
+      'publishedAt': '2019-08-11T14:26:18Z',
+      'content': 'Donald Trumps short-time communications director and one-time pal Anthony Scaramucci attacked the president on Twitter Saturday with a chilling warning that Trump will eventually turn on the entire country.\r\nTrump lashed Scaramucci on Twitter earlier for his … [+1030 chars]'
+    },
+    {
+      'source': {
+        'id': 'nbc-news',
+        'name': 'NBC News'
+      },
+      'author': 'Ben Kamisar',
+      'title': "Harris says Trump is waging a 'campaign of terror' against minority communities - NBC News",
+      'description': 'Sen. Kamala Harris, D-Calif., accused the Trump administration of waging a "campaign of terror" against minority communities in America.',
+      'url': 'https://www.nbcnews.com/politics/meet-the-press/harris-says-trump-waging-campaign-terror-against-minority-communities-n1041171',
+      'urlToImage': 'https://media2.s-nbcnews.com/j/newscms/2019_32/2967476/190811-mtp-kamala-harris-cs-927a_fe35d545a11537edd82eb5a1f4cc212e.nbcnews-fp-1200-630.jpg',
+      'publishedAt': '2019-08-11T14:15:00Z',
+      'content': 'WASHINGTON Sen. Kamala Harris, D-Calif., accused the Trump administration of waging a "campaign of terror" against minority communities in America, pointing specifically to the recent Mississippi food processing plant raids that picked up 680 suspected undocu… [+2791 chars]'
     }
-  ],
-  'base': 'stations',
-  'main': {
-    'temp': 18.33,
-    'pressure': 1013,
-    'humidity': 63,
-    'temp_min': 16.11,
-    'temp_max': 20
-  },
-  'visibility': 10000,
-  'wind': {
-    'speed': 3.1,
-    'deg': 270
-  },
-  'clouds': {
-    'all': 20
-  },
-  'dt': 1563653835,
-  'sys': {
-    'type': 1,
-    'id': 1502,
-    'message': 0.0084,
-    'country': 'GB',
-    'sunrise': 1563595592,
-    'sunset': 1563653207
-  },
-  'timezone': 3600,
-  'id': 2643743,
-  'name': 'London',
-  'cod': 200
+  ]
 }
