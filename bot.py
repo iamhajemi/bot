@@ -111,7 +111,7 @@ def sese_cevir(message):
     print(mesaj)
     tts = gTTS(mesaj, lang='tr')
     tts.save('hello.mp3')
-    audio = open('C:/Users/Haggi/bot/hello.mp3', 'rb')
+    audio = open('tmp/hello.mp3', 'rb')
     bot.send_audio(message.chat.id, audio)
 
 
