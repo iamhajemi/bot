@@ -151,7 +151,7 @@ def xeberler(message):
 
 @bot.message_handler(commands=['test'])
 def xeberler(message):
-    bot.send_message(message.chat.id, "salamlar")
+    bot.send_message(message.chat.id, "salamun alaykum")
 
 
 
