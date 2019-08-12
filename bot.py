@@ -111,7 +111,7 @@ def sese_cevir(message):
     print(mesaj)
     tts = gTTS(mesaj, lang='tr')
     tts.save('hello.mp3')
-    audio = open('tmp/hello.mp3', 'rb')
+    audio = open('$HOME/hello.mp3', 'rb')
     bot.send_audio(message.chat.id, audio)
 
 
