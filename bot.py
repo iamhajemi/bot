@@ -175,7 +175,7 @@ def send_photo(message):
 
 
 	markdown = "[.](http://www.gifporntube.com"+str(urls[0])+")"
-	bot.send_message(message.chat.id, markdown)
+	bot.send_message(message.chat.id, markdown, parse_mode="Markdown")
 
 
 #@bot.message_handler(func = lambda message: True)
