@@ -181,7 +181,7 @@ def xeberler(message):
 
 
 
-#Salam
+#Salamlar
 
 
 
