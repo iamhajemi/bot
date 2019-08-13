@@ -1,6 +1,15 @@
 #!/usr/bin/env python
 import random
-import time
+import time, re, telebot, random, csv
+from PIL import Image, ImageDraw
+from io import BytesIO
+import shutil
+import urllib
+import requests
+from telebot import types
+import urllib.request, json
+import lxml.html
+import data
 
 from gtts import gTTS
 from telebot import types
@@ -65,10 +74,9 @@ def send_welcome(message):
     def sual_ver(message):
         global counter
 
-        print(message.text)
-
         if message.text == 'basla' and counter == 0:
             sual_duzelt(message,suallar[counter],cavablar[counter][0],cavablar[counter][1],cavablar[counter][2],cavablar[counter][3])
+
 
 
         elif message.text == cavablar[counter-1][duzguncavablar[counter-1]] and counter !=0:
@@ -79,9 +87,10 @@ def send_welcome(message):
             elif  counter == len(suallar):
                 bot.send_message(message.chat.id, 'Tebrikler qalib geldiniz\nYeniden oynamaq ucun baslaya basin', reply_markup=cavab_dal())
                 counter=0
-        elif message.text != cavablar[counter-1][duzguncavablar[counter-1]]:
+        elif message.text != cavablar[counter-1][duzguncavablar[counter-1]] and counter !=0:
             bot.send_message(message.chat.id,'Teessuf ki meglub oldunuz.\nYeniden baslamaq ucun baslaya basin', reply_markup=cavab_dal())
             counter = 0
+
 
 
 
@@ -156,8 +165,17 @@ def xeberler(message):
 
 
 
+@bot.message_handler(commands=['porngif'])
+def send_photo(message):
+	arg = message.text.split(" ")
+
+	resource = urllib.request.urlopen("http://www.gifporntube.com/gifs/"+str(arg[1])+".html")
+	content =  resource.read().decode(resource.headers.get_content_charset())
+	urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+([/a-z_0-9]*.mp4)', content)
 
 
+	markdown = "[.](http://www.gifporntube.com"+str(urls[0])+")"
+	bot.send_message(message.chat.id, markdown)
 
 
 #@bot.message_handler(func = lambda message: True)
