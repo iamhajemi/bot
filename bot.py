@@ -164,7 +164,7 @@ def xeberler(message):
 
 
 
-
+@bot.message_handler(commands=['porngif'])
 def send_photo(message):
 	arg = message.text.split(" ")
 	resource = urllib.request.urlopen("http://www.gifporntube.com/gifs/"+str(arg[1])+".html")
