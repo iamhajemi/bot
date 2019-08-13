@@ -180,7 +180,7 @@ def xeberler(message):
 
 
 
-#Salamlar
+#Salamlarllll
 
 
 
