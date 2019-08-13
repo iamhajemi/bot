@@ -1,18 +1,10 @@
 #!/usr/bin/env python
 import random
 import time, re, telebot, random, csv
-from PIL import Image, ImageDraw
-from io import BytesIO
-import shutil
-import urllib
-import requests
-from telebot import types
-import urllib.request, json
-import lxml.html
-import data
+
 
 from gtts import gTTS
-from telebot import types
+
 import requests
 import telebot
 from telebot import types
