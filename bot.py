@@ -164,15 +164,7 @@ def xeberler(message):
 
 
 
-# @bot.message_handler(commands=['porngif'])
-# def send_photo(message):
-# 	arg = message.text.split(" ")
-# 	resource = urllib.request.urlopen("http://www.gifporntube.com/gifs/"+str(arg[1])+".html")
-# 	content =  resource.read().decode(resource.headers.get_content_charset())
-# 	urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+([/a-z_0-9]*.mp4)', content)
-# 	print("http://www.gifporntube.com"+urls[0]+ "  arg:"+str(arg[1]))
-# 	markdown = "[.](http://www.gifporntube.com"+str(urls[0])+")"
-# 	bot.send_message(message.chat.id, markdown, parse_mode="Markdown")
+
 
 
 #@bot.message_handler(func = lambda message: True)
